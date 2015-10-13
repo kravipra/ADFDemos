@@ -78,7 +78,7 @@
       </list>
    </hash>
    <hash n="oracle.jdeveloper.compiler.OjcConfiguration">
-      <value n="internalEncoding" v="Cp1252"/>
+      <value n="internalEncoding" v="UTF-8"/>
       <list n="Javac.commandline.optionlist">
          <string v="-g"/>
          <string v="-Xlint:all"/>
@@ -89,6 +89,8 @@
          <string v="-Xlint:-serial"/>
          <string v="-Xlint:-unchecked"/>
       </list>
+      <value n="source" v="Default"/>
+      <value n="target" v="Default"/>
       <value n="webIANAEncoding" v="UTF-8"/>
    </hash>
    <hash n="oracle.jdeveloper.deploy.dt.DeploymentProfiles">
